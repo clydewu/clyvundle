@@ -120,9 +120,8 @@
 
 " syntastic {
     " for pylint
-    let g:syntastic_python_checker = 'pylint'
-    let g:syntastic_python_checker_args="--disable=C0112,C0111"
-    let g:syntastic_python_checker_args = g:syntastic_python_checker_args." --max-line-length=255"
+    let g:syntastic_python_checkers = ['pylint']
+    let g:syntastic_python_pylint_args="--max-line-length=255"
 
     " for flake8
     "let g:syntastic_python_checker = 'flake8'
