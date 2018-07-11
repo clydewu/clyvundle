@@ -4,14 +4,14 @@ git clone git@github.com:clydewu/clyvundle.git .vim
 </pre>
 * Link .vimrc
 <pre>
-ln -s .vimrc clyvundle/vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 </pre>
 * Intall plugin of vim
-* * Shell command
+  * Shell command
 <pre>
 vim +PluginInstall +qall
 </pre>
-* * Or command in vim
+  * Or command in vim
 <pre>
 :PluginInstall
 </pre>
@@ -20,11 +20,11 @@ vim +PluginInstall +qall
 sudo aptitude install python2.7-dev
 </pre>
 * Build YouCompleteMe
-* * Linux
+  * Linux
 <pre>
 ~/.vim/bundle/YouCompleteMe/install.sh
 </pre>
-* * OSX
+  * OSX
 <pre>
 ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
 </pre>
