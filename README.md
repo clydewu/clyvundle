@@ -22,9 +22,9 @@ sudo aptitude install python2.7-dev
 * Build YouCompleteMe
   * Linux
 <pre>
-~/.vim/bundle/YouCompleteMe/install.sh
+~/.vim/bundle/YouCompleteMe/install.py
 </pre>
   * OSX
 <pre>
-~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer
 </pre>
