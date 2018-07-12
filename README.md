@@ -8,23 +8,20 @@ ln -s ~/.vim/vimrc ~/.vimrc
 </pre>
 * Intall plugin of vim
   * Shell command
-<pre>
-vim +PluginInstall +qall
-</pre>
+  <pre>
+  vim +PluginInstall +qall
+  </pre>
   * Or command in vim
-<pre>
-:PluginInstall
-</pre>
-* Install python-dev
-<pre>
-sudo aptitude install python2.7-dev
-</pre>
+  <pre>
+  :PluginInstall
+  </pre>
 * Build YouCompleteMe
   * Linux
-<pre>
-~/.vim/bundle/YouCompleteMe/install.py
-</pre>
+  <pre>
+  sudo aptitude install python2.7-dev
+  ~/.vim/bundle/YouCompleteMe/install.py
+  </pre>
   * OSX
-<pre>
-~/.vim/bundle/YouCompleteMe/install.py --clang-completer
-</pre>
+  <pre>
+  ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+  </pre>
