@@ -18,7 +18,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 * Build YouCompleteMe
   * Linux
   <pre>
-  sudo aptitude install python2.7-dev
+  sudo aptitude install build-essential cmake vim python3-dev
   ~/.vim/bundle/YouCompleteMe/install.py
   </pre>
   * OSX
